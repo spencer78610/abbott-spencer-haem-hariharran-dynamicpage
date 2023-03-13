@@ -1,0 +1,132 @@
+/* We typically use one CSS file, named main.css to control all of our pages */
+
+/* this is a class we use to hide headings in our design */
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    padding-left: 21px;
+    padding-right: 21px;
+    grid-template-columns: repeat(12, 72px);
+    grid-column-gap: 34px;
+}
+
+/* header */
+
+#main-header{
+    grid-column: 1/-1;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    padding: 2% 4%;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#logo {
+    grid-column: 1/2;
+    width: 135px;
+    margin-top: 36px;
+    
+}
+.nav-links{
+    grid-column: 7/-1;
+    text-align: right;
+    margin-top: 40px;
+}
+/* 
+.nav-links ul{
+    grid-column: 8/12;
+} */
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: .5s;    
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+nav .fa{
+    display: none;
+}
+
+.fa-close {
+    display: none;
+}
+
+/* Team */
+
+#team {
+    display: grid;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.png);
+    padding-top: 82px;
+    height: 1093px;
+    text-align: center;
+}
+
+#but-s {
+    height: 390px;
+    border-radius: 10%;
+    grid-column: 2/6;
+}
+
+#but-h {
+    height: 390px;
+    border-radius: 10%;
+    grid-column: 8/12;
+}
+
+h2 {
+    font-size: 32px;
+    color: #2a2a2a;
+    grid-row: 2;
+    padding-bottom: 450px;
+}
+
+p {
+    font-size: 26px;
+    color: #868686;
+    grid-row: 3;
+}
+
+#s-text {
+    grid-column: 1/7;
+}
+
+#h-text {
+    grid-column: 7/13;
+}
