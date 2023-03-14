@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DR.NUT</title>
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
@@ -28,12 +28,17 @@
         </header>
 
         <section class="grid" id="team">
-            <button id="but-s">Spencer</button>
-            <!-- <h2 id="s-text">Spencer Abbott</h2>
-            <p>CEO</p> -->
-            <button id="but-h">Haem</button>
-            <!-- <h2 id="h-text">Haem Hariharran</h2>
-            <p>Vice Prisedent</p> -->
+            <h2 class="hidden">Dynamic Team</h2>
+                <button data-member="spencer" class="box" id="spencer">Spencer</button>
+                <button data-member="haem" class="box" id="haem">Haem</button>
+        </section>
+
+        <section class="grid" id="info-team">
+            <h2 class="hidden">Main Info</h2>
+            <div id="info">
+                <h3 class="ib-heading">Spencer Abbott CEO</h3>
+                <p class="ib-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, neque est ullam architecto eius laboriosam, consequatur et aperiam deleniti modi quibusdam in, assumenda corporis! Sequi distinctio suscipit impedit expedita quas?</p>
+            </div>
         </section>
 
         <section class="footer">
@@ -51,6 +56,7 @@
     
     </div>
     
+    <script src="js/squad.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
