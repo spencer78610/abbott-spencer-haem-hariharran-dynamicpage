@@ -99,6 +99,10 @@ nav .fa{
     text-align: center;
 }
 
+button img {
+    border-radius: 10%;
+}
+
 #spencer {
     height: 390px;
     border-radius: 10%;
@@ -147,4 +151,56 @@ p {
     background-color: #9C9C9C;
     height: 535px;
     grid-column: 1/13;
+    padding-top: 20px;
+}
+
+.ib-heading {
+    font-size: 28px;
+    color: #fff;
+}
+
+.ib-title {
+    font-size: 24px;
+    color: #fff;
+}
+
+.ib-text {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* footer */
+
+
+.footer-link{
+    text-decoration: none;
+    color: #777;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    font-size: 35px;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o{
+    color: #f44336;
 }
