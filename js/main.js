@@ -19,3 +19,4 @@ let inputButton = document.querySelectorAll('#team button'),
     }
 
     inputButton.forEach(button => button.addEventListener('click', getboxData));
+

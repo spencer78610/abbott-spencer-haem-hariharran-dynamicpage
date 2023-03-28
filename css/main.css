@@ -34,6 +34,8 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
+    margin-top: 5px;
 }
 
 nav{
@@ -98,11 +100,9 @@ nav .fa{
     text-align: center;
 }
 
-button img {
-    border-radius: 10%;
-    margin: 0;
-    padding: 0;
-}
+
+
+
 
 .box {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
@@ -159,17 +159,20 @@ p {
     background-color: #9C9C9C;
     height: 570px;
     display: none;
+    border-radius: 20px;
 }
 
 #info {
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/lightbulb.png);
     height: 535px;
     padding-bottom: 20px;
+    border-radius: 20px;
 }
 
 .ib-heading {
     font-size: 28px;
     color: #fff;
+    padding-top: 20px;
 }
 
 .ib-title {
