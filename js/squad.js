@@ -9,6 +9,7 @@ let squad  = {
     haem: {
         name: 'Haem Hariharran',
         title: 'Vice President',
-        bio: 'some interesting bio stuff'
+        bio: 'some interesting bio stuff',
+        
     }
 }
