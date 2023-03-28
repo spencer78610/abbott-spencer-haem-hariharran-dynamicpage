@@ -29,7 +29,7 @@ body {
 
 #main-header{
     grid-column: 1/-1;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/handsup.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -93,14 +93,24 @@ nav .fa{
 
 #team {
     display: grid;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.png);
-    padding-top: 82px;
-    height: 500px;
+    padding-top: 22px;
+    height: 420px;
     text-align: center;
 }
 
 button img {
     border-radius: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.box:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.8);
+    transition: 0.2s ease-in-out;
 }
 
 #spencer {
@@ -108,6 +118,8 @@ button img {
     border-radius: 10%;
     grid-column: 2/6;
     cursor: pointer;
+    border: none;
+    background-image: url(../img/spencer.png);
 }
 
 #haem {
@@ -115,6 +127,8 @@ button img {
     border-radius: 10%;
     grid-column: 8/12;
     cursor: pointer;
+    border: none;
+    background-image: url(../img/haem.png);
 }
 
 h2 {
@@ -142,16 +156,15 @@ p {
 
 #info-team {
     display: grid;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.png);
+    background-color: #9C9C9C;
     height: 570px;
     display: none;
 }
 
 #info {
-    background-color: #9C9C9C;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/lightbulb.png);
     height: 535px;
-    grid-column: 1/13;
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .ib-heading {
@@ -165,7 +178,7 @@ p {
 }
 
 .ib-text {
-    color: black;
+    color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
