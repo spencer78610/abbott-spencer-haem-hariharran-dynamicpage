@@ -156,15 +156,16 @@ p {
 
 #info-team {
     display: grid;
-    background-color: #9C9C9C;
-    height: 570px;
+    background-color: #f44336;
+    height: 480px;
     display: none;
     border-radius: 20px;
+    padding-top: 5px;
 }
 
 #info {
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/lightbulb.png);
-    height: 535px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    height: 400px;
     padding-bottom: 20px;
     border-radius: 20px;
 }
@@ -184,6 +185,8 @@ p {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* footer */
